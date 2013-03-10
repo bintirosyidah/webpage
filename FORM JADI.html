@@ -1,0 +1,115 @@
+<html>
+<head><title>BIODATA</title></head>
+<body >
+<form action="cetak.php" method="post">
+<table border='0' cellpadding='3' cellspacing='3' align='center' bgcolor="silver">
+    <tr align="center">
+		<td colspan='2'>
+			<strong>
+				<font face="Vivaldi" size = "6">Formulir Biodata Mahasiswa
+					<br>Falultas Teknik 
+					<br>Universitas Negeri Malang 
+					<br>2011
+					<hr>
+			</strong>
+		</td>
+	</tr>
+	<tr>
+		<td><b>DATA PRIBADI</b></td>
+	</tr>
+	
+    <tr>
+        <td><b>Nama</b></td>
+        <td><input type="text" name="nama_dpn" size="55"></td>
+    </tr>
+	
+    <tr>
+        <td><b>Jenis Kelamin</b></td>
+        <td><input type="radio" name="jenke" value="Pria"> Pria
+               <input type="radio" name="jenke" value="Wanita"> Wanita</td>
+    </tr>
+	
+	<tr>
+		<td><b>Alamat Asal</b></td>
+		<td><textarea name="alamat" cols="43" rows="3" id="alamat"></textarea></td>
+	</tr>
+	
+	<tr>
+		<td><b>Kode Pos</b></td>
+		<td><input type="text" name="pos" size="55"></td>
+	</tr>
+	
+    <tr>
+        <td><b>Agama</b></td>
+        <td><input type="radio" name="agama" value="Katolik">Katolik
+               <input type="radio" name="agama"value="Protestan">Protestan
+               <input type="radio" name="agama"value="Islam">Islam
+               <input type="radio" name="agama"value="Budha">Budha
+               <input type="radio" name="agama"value="Hindu">Hindu</td>
+    </tr>
+	
+	<tr>
+		<td><b>E-mail</b></td>
+		 <td><input type="text" name="email" size="55"></td>
+	</tr>
+	
+	<tr></tr><tr></tr><tr></tr><tr></tr>
+	<tr>
+		<td><b>DATA JURUSAN<b></td>
+	</tr>
+	
+	<tr>
+        <td><b>N  I  M</b></td>
+        <td><input type="text" name="nim" size="55"></td>
+    </tr>
+    <tr>
+        <td><b>Jurusan</b></td>
+        <td><select name="jurusan">
+                <option value="Jurusan">Jurusan</option>
+                <option value="Teknik Elekrto">Teknik Elekrto</option>
+                <option value="Teknik Sipil">Teknik Sipil</option>
+                <option value="Teknik Mesin">Teknik Mesin</option>
+                <option value="Teknik Otomotif">Teknik Otomotif</option> 
+				<option value="Teknik Industri">Teknik Industri</option>
+                </select></td>
+    </tr>
+	
+	<tr>
+        <td><b>Program Studi</b></td>
+        <td><select name="Program Studi">
+                <option value="prodi">Program Studi</option>
+                <option value="Teknik Elekrto">S1 Pendidikan Teknik Informatika</option>
+                <option value="Teknik Sipil">S1 Pendidikan Teknik Elektro</option>
+				<option value="Teknik Industri">S1 Pendidikan Teknik Otomotif</option>
+				<option value="Teknik Industri">S1 Teknik Otomotif</option>
+				<option value="Teknik Industri">S1 Pendidikan Teknik Bangunan</option>
+				<option value="Teknik Elekrto">S1 Teknik Bangunan</option>
+                <option value="Teknik Sipil">S1 Pendidikan Teknik Mesin</option>
+                <option value="Teknik Mesin">S1 Teknik Mesin</option>
+				<option value="Teknik Industri">S1 Pendidikan Tata Boga</option>
+				<option value="Teknik Industri">S1 Tata boga</option>
+				<option value="Teknik Industri">S1 Pendidikan Tata Busana</option>
+				<option value="Teknik Industri">S1 Tata Busana</option>
+                <option value="Teknik Mesin">D3 Elektro</option>
+                <option value="Teknik Otomotif">D3 Elektronika</option> 
+				<option value="Teknik Otomotif">D3 Teknik Mesin</option> 
+				<option value="Teknik Industri">D3 Teknik Otomotif</option>
+				<option value="Teknik Industri">D3 Tata Boga</option>
+				<option value="Teknik Industri">D3 Tata Busana</option>
+                </select></td>
+    </tr>
+	
+	<tr>
+		<td><b>Komentar</b></td>
+		<td><textarea name="coment" cols="43" rows="3" id="coment"></textarea></td>
+	</tr>
+	
+    <tr>
+        <td colspan="2" align=center>
+		<input type="submit" name="kirim" value="SEND">
+		<input type="submit" name="kirim" value="CANCEL"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
